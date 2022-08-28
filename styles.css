@@ -10,6 +10,10 @@ html {
 body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.6rem;
+    position: relative;
+}
+[id] {
+    scroll-margin: 20rem;
 }
 .hero-shadow {
     position: absolute;
@@ -79,4 +83,21 @@ body {
 }
 .team .card-title {
     font-size: 2rem;
+}
+
+
+/* contact section */
+.contact h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact .submit-btn {
+    font-size: 1.4rem;
+    color:rgb(152,117,209);
+}
+/* footer section */
+.git-link a {
+    text-decoration: none;
+    color:#ffffff;
 }
