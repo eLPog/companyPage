@@ -23,6 +23,9 @@ body {
 .orange-color {
     color: rgba(157,79,27,0.92);
 }
+.violet-color {
+    color:rgba(152,117,209,0.8)
+}
 /* navigation */
 .navbar-brand {
     font-size: 2rem;
@@ -63,6 +66,17 @@ body {
 }
 .accordion-button:not(.collapsed) {
     color: rgba(157,57,0,0.92);
-    background-color:rgba(0, 0, 0, 0.2);
-    border: 1px solid yellow;
+    background-color:rgba(152,117,209,0.16);
+}
+
+/* team section */
+.team {
+    background-color: rgba(152,117,209,0.16);
+}
+.team .card-img-top {
+    height: 20rem;
+    object-fit: cover;
+}
+.team .card-title {
+    font-size: 2rem;
 }
