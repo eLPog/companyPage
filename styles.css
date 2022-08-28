@@ -20,8 +20,8 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     z-index: -1;
 }
-.green-color {
-    color: rgba(34,109,38,0.92);
+.orange-color {
+    color: rgba(157,79,27,0.92);
 }
 /* navigation */
 .navbar-brand {
@@ -56,4 +56,13 @@ body {
 
 .aboutUs-icon {
     font-size: 4rem;
+}
+.accordion-button {
+    font-size: 1.5rem;
+    padding:1rem;
+}
+.accordion-button:not(.collapsed) {
+    color: rgba(157,57,0,0.92);
+    background-color:rgba(0, 0, 0, 0.2);
+    border: 1px solid yellow;
 }
